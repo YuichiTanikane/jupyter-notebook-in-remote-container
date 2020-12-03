@@ -23,3 +23,11 @@
 
 ![hello](images/hello.png)
 
+`docker ps`を見てみると、たしかにContainerで動いているようである。なんだか不思議な気持ち。
+
+```shell
+❯ docker ps
+CONTAINER ID        IMAGE                          COMMAND                  CREATED             STATUS              PORTS                    NAMES
+e1556a11cc0b        jupyter/datascience-notebook   "tini -g -- start-no…"   4 minutes ago       Up 4 minutes        0.0.0.0:8888->8888/tcp   jupyter-notebook-in-remote-container_devcontainer_jupyter_1
+```
+
