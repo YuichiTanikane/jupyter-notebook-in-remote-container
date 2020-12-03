@@ -1,0 +1,10 @@
+{
+  "name": "my-jupyter",
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "jupyter",
+  "workspaceFolder": "/home/jovyan/work",
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ]
+}
