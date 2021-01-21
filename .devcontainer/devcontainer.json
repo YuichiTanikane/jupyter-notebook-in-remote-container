@@ -5,6 +5,7 @@
   "workspaceFolder": "/home/jovyan/work",
   "extensions": [
     "ms-python.python",
-    "ms-toolsai.jupyter"
+    "ms-toolsai.jupyter",
+    "ms-python.vscode-pylance"
   ]
 }
